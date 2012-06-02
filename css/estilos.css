@@ -1,0 +1,351 @@
+/********************RESETS*********************/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border:0;
+}
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+
+.nf{
+	clear:both;
+}
+
+/****************ESTILOS GENERALES***************/
+
+body{
+	background-color: #504634;
+	
+}
+
+#wrapper{
+	width:685px;
+	margin:37px auto;
+	position: relative;
+}
+
+header{
+	background-image:url(../images/header.jpg);
+	background-repeat:no-repeat;
+	height:265px;
+	border-bottom:3px solid white;
+	background-color: #f4eddb;
+	display:inline-block;
+	margin:auto;
+}
+
+footer{
+	width:685px;
+	height:100%;
+	background-color: white;
+}
+
+footer p{
+	font-family:Verdana,arial;
+	font-size:10px;
+	font-weight:normal;
+	text-align:center;
+	color:#736d72;
+	padding:5px;
+}
+
+footer p a{
+	text-decoration:none;
+	border-bottom:1px dotted #736d72;
+	color:#736d72;
+}
+
+
+#slogan{
+	position: absolute;
+  	top: 15px;
+  	left: 305px;
+	width:180px;
+}
+
+#slogan h1{
+	letter-spacing: -2px;
+	font-family:"Myriad Pro", arial;
+	font-size:32px;
+	font-weight:normal;
+	color:#52616e;
+}
+
+#slogan h2{
+	font-family:"Agency FB", arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#4b5360;
+}
+
+#shopping{
+	position: absolute;
+  	top: 10px;
+  	left: 480px;
+	width:170px;
+	background-color: #4b5360;
+	border-radius:10px;
+	padding:12px;
+	
+}
+
+#shopping img{
+	float:left;
+	padding-right:8px;
+}
+
+#shopping p{
+	font-family:Verdana, arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#fbfdff;
+}
+
+#shopping p a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#shopping p a:hover{
+	text-decoration:underline;
+}
+
+
+#navegacion{
+	background-color: #4b5360;
+	float:right;
+	padding:8px;
+	margin-top:98px;
+}
+
+#navegacion ul{
+	list-style-type: none;
+	color:#fff;
+}
+
+#navegacion ul li{
+	float:left;
+	padding-left:6px;
+	
+}
+
+#navegacion ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#navegacion ul li a:hover{
+	text-decoration:underline;
+}
+
+#galeria{
+	float:right;
+	padding-top:20px;
+}
+
+#contenido{
+	margin-top:-5px;
+	background-color:#d4cab6;
+	height:535px;
+}
+
+#menubar{
+	width:196px;
+	margin:0;
+	padding:0;
+	float:left;
+	border-right:3px solid white;
+}
+
+#menubar p{
+	font-family:Verdana, arial;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	background-color: #847a67;
+	padding:5px;
+	text-align:center;
+}
+
+#menubar ul{
+	width:100%;
+}
+
+#menubar ul li{
+	list-style-type: none;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	padding:6px;
+	background-image:url(../images/bullet.gif);
+	background-repeat:no-repeat;
+	background-position:2px, 2px;
+	padding-left:42px;
+}
+
+#menubar ul li a{
+	text-decoration:none;
+	font-family:Verdana, arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#000;
+}
+
+#menubar ul li:hover{
+	background-color:#f3f3f3;
+}
+
+#postFashion{
+	width:478px;
+	padding-left:8px;
+	padding-top:5px;
+	float:left;
+	border-bottom:3px solid white;
+}
+
+#postFashion h1{
+	font-family:"Myriad Pro", arial;
+	font-size:24px;
+	font-weight:normal;
+	color:#695f4c;
+	padding-bottom:4px;
+}
+
+#postFashion h2{
+	font-family:"Myriad Pro", arial;
+	font-size:18px;
+	font-weight:bold;
+	color:#1b1812;
+	padding-bottom:4px;
+}
+
+#postFashion p{
+	width:440px;
+	font-family:Verdana, arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#695f4c;
+}
+
+#postFashion a{
+	float:right;
+	text-decoration:none;
+	font-family:Verdana, arial;
+	font-size:11px;
+	color:#1b1812;
+	margin-right:48px;
+	padding-bottom:10px;
+}
+
+#postFashion a:hover{
+	color:#f79b38;
+	text-decoration:underline;
+}
+
+#postcolection{
+	width:478px;
+	display: inline-block;
+	padding:9px 0 0 8px;
+	border-bottom:2px solid white;
+}
+
+#postcolection h1{
+	font-family:"Myriad Pro", arial;
+	font-size:24px;
+	font-weight:normal;
+	color:#695f4c;
+	width:155px;
+	padding-bottom:5px;
+}
+
+#postcolection p{
+	font-family:"Myriad Pro", arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#463f32;
+	width:105px;
+	padding-bottom:5px;
+}
+
+#postcolection #points{
+	font-family:Verdana, arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#463f32;
+}
+
+#galeriacolection{
+	width:200px;
+	padding-top:28px;
+	float:right;
+}
+
+#topmodel img{
+	float:right;
+}
+
+#galeriafooter{
+	text-align:center;
+	padding-left:10px;
+	margin-top:12px;
+
+}
+
+#mens{
+	background-image: url(../images/foot_1.jpg);
+	background-repeat:no-repeat;
+	width:195px;
+	height:146px;
+	font-family:arial;
+	font-size:24px;
+	font-weight:normal;
+	float:left;
+}
+
+#mens p{
+	margin-top:40px;
+	margin-left:80px;
+}
+
+#women{
+	background-image: url(../images/foot_2.jpg);
+	background-repeat:no-repeat;
+	width:249px;
+	height:146px;
+	font-family:arial;
+	font-size:24px;
+	font-weight:normal;
+	float:left;
+}
+
+#women p{
+	margin-top:40px;
+	margin-left:90px;
+}
+
+#kids{
+	background-image: url(../images/foot_3.jpg);
+	background-repeat:no-repeat;
+	width:222px;
+	height:146px;
+	font-family:arial;
+	font-size:24px;
+	font-weight:normal;
+	float:left;
+}
+
+#kids p{
+	margin-top:40px;
+	margin-left:90px;
+}
